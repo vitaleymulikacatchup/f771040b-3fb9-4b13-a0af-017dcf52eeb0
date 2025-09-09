@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'highlight' }}>
       <NavbarStyleApple
-        brand="DogMemCoin"
+        logoSrc="/images/logo.svg"
+        logoAlt="DogMemCoin logo"
+        brandName="DogMemCoin"
         navItems={[
           { name: 'Hero', id: 'hero' },
           { name: 'About', id: 'about' },
