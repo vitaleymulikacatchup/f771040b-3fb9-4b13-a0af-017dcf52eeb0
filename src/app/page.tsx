@@ -55,8 +55,8 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Here’s how our economy works."
           kpiItems={[
-            { value: "50M", description: "Total Supply", icon: null },
-            { value: "20%", description: "Liquidity", icon: null }
+            { value: "50M", description: "Total Supply", icon: {}} ,
+            { value: "20%", description: "Liquidity", icon: {}}  
           ]}
         />
       </div>
