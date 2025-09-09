@@ -7,6 +7,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 import FooterBase from '@/components/footer/FooterBase';
+import { CheckCircle } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -45,9 +46,7 @@ export default function Home() {
       </div>
 
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
-        <HowToBuy2D
-          variant="simple"
-        />
+        <HowToBuy2D variant="simple" />
       </div>
 
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
@@ -55,8 +54,8 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Here’s how our economy works."
           kpiItems={[
-            { value: "50M", description: "Total Supply", icon: {}} ,
-            { value: "20%", description: "Liquidity", icon: {}}  
+            { value: "50M", description: "Total Supply", icon: CheckCircle },
+            { value: "20%", description: "Liquidity", icon: CheckCircle }
           ]}
         />
       </div>
