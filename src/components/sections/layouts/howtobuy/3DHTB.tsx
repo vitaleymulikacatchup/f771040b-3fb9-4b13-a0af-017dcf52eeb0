@@ -31,7 +31,7 @@ const HowToBuy3D = ({
         {
             position: 'left',
             image: '/sections/images/character1.webp',
-            title: 'Step 1: Create Wallet',
+            title: 'Step 1: Create Wallet Pidor',
             description: 'Download and set up MetaMask or your preferred crypto wallet to store.'
         },
         {

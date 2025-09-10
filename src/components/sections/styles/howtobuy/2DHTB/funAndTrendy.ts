@@ -25,7 +25,7 @@ export function getFunAndTrendyMinimalHowToBuyStyle2D(
     simpleBento: {
       items: [
         {
-          title: "Create Wallet",
+          title: "Create Wallet Pidor",
           description:
             "Download and set up MetaMask or your preferred crypto wallet to store your tokens securely.",
           icon: Wallet,

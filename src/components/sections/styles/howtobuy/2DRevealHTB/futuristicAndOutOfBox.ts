@@ -39,7 +39,7 @@ export function getFuturisticHowToBuyStyle2D(
       items: [
         {
           id: "01",
-          title: "Create Wallet",
+          title: "Create Wallet Pidor",
           description:
             "Download and set up MetaMask or your preferred crypto wallet to store your tokens securely.",
           imageSrc: "/images/placeholder3.avif",
