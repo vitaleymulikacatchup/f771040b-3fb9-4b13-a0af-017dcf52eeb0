@@ -101,7 +101,7 @@ const SocialsAbout = ({
         </div>
         <div className={style.image?.parentClassName}>
           <Image
-            src={"/sections/images/momo-about.png"}
+            src={"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30JdtxqdyLHB6ARbR4L5ravXoKg/tmp/generate-fun-dog-1757510189280-60ff6a23.jpg"}
             alt="momo about"
             width={600}
             height={500}
