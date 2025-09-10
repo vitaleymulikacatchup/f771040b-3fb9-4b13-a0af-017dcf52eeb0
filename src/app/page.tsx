@@ -37,7 +37,7 @@ export default function Home() {
 
       <div id="about" data-section="about" className="scroll-mt-24">
         <SocialsAbout
-          title="Dimon pidor!!!"
+          title="Dimon pidor"
           descriptions={[
             "DogMemCoin is a community-driven cryptocurrency.",
             "Join us in reshaping the future of meme coins!"
